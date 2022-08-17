@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-18T01:49:30 IST" name="Surefire suite" finished-at="2022-08-18T01:49:41 IST" duration-ms="11434">
+  <suite started-at="2022-08-18T03:24:53 IST" name="Surefire suite" finished-at="2022-08-18T03:25:04 IST" duration-ms="11060">
     <groups>
     </groups>
-    <test started-at="2022-08-18T01:49:30 IST" name="Surefire test" finished-at="2022-08-18T01:49:41 IST" duration-ms="11434">
+    <test started-at="2022-08-18T03:24:53 IST" name="Surefire test" finished-at="2022-08-18T03:25:04 IST" duration-ms="11060">
       <class name="MyTest.LoginTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:MyTest.LoginTest@3cc2931c]" started-at="2022-08-18T01:49:30 IST" name="SetUp" finished-at="2022-08-18T01:49:30 IST" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:MyTest.LoginTest@3cc2931c]" started-at="2022-08-18T03:24:53 IST" name="SetUp" finished-at="2022-08-18T03:24:53 IST" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="StartUp()[pri:0, instance:MyTest.LoginTest@3cc2931c]" started-at="2022-08-18T01:49:30 IST" name="StartUp" finished-at="2022-08-18T01:49:41 IST" duration-ms="10515" status="PASS">
+        <test-method is-config="true" signature="StartUp()[pri:0, instance:MyTest.LoginTest@3cc2931c]" started-at="2022-08-18T03:24:53 IST" name="StartUp" finished-at="2022-08-18T03:25:03 IST" duration-ms="10580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartUp -->
-        <test-method signature="login()[pri:0, instance:MyTest.LoginTest@3cc2931c]" started-at="2022-08-18T01:49:41 IST" name="login" finished-at="2022-08-18T01:49:41 IST" duration-ms="815" status="PASS">
+        <test-method signature="login()[pri:0, instance:MyTest.LoginTest@3cc2931c]" started-at="2022-08-18T03:25:03 IST" name="login" finished-at="2022-08-18T03:25:04 IST" duration-ms="397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
