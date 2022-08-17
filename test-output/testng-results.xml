@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-17T07:37:26 IST" name="Suite" finished-at="2022-08-17T07:37:36 IST" duration-ms="9687">
+    <groups>
+    </groups>
+    <test started-at="2022-08-17T07:37:26 IST" name="Test" finished-at="2022-08-17T07:37:36 IST" duration-ms="9687">
+      <class name="MyTest.LoginTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:MyTest.LoginTest@5ffead27]" started-at="2022-08-17T07:37:26 IST" name="SetUp" finished-at="2022-08-17T07:37:26 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="StartUp()[pri:0, instance:MyTest.LoginTest@5ffead27]" started-at="2022-08-17T07:37:26 IST" name="StartUp" finished-at="2022-08-17T07:37:35 IST" duration-ms="8856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartUp -->
+        <test-method signature="login()[pri:0, instance:MyTest.LoginTest@5ffead27]" started-at="2022-08-17T07:37:35 IST" name="login" finished-at="2022-08-17T07:37:36 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- MyTest.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
