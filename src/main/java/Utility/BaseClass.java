@@ -4,6 +4,8 @@ import java.io.IOException;
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
@@ -23,9 +25,19 @@ public class BaseClass {
 	@BeforeTest
 	public void StartUp()
 	{
+		ChromeOptions opt=new ChromeOptions();
+		opt.addArguments("start-maximized");
 		WebDriverManager.chromedriver().setup();
-		driver= new ChromeDriver();
+		driver= new ChromeDriver(opt);
 		driver.get(config.getBaseUrl());
 	}
 
+	@AfterSuite
+	public void endUp()
+	{	
+		driver.close();
+		
+		
+		
+	}
 }
