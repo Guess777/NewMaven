@@ -31,12 +31,11 @@ public class BaseClass {
 		driver= new ChromeDriver(opt);
 		driver.get(config.getBaseUrl());
 	}
-
+	
 	@AfterSuite
 	public void endUp()
 	{	
 		driver.close();
-		
 		
 		
 	}
